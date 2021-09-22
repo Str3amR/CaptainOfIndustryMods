@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net46</TargetFramework>
+		<RootNamespace>CaptainOfIndustryMods.CheatMenu</RootNamespace>
+		<AssemblySearchPaths>
+			C:\Program Files (x86)\Steam\steamapps\common\Captain of Industry\Captain of Industry_Data\Managed\;
+			E:\Games\SteamLibrary\steamapps\common\Captain of Industry\Captain of Industry_Data\Managed\;
+			$(AssemblySearchPaths);
+		</AssemblySearchPaths>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Mafi">
+			<HintPath>Mafi.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Mafi.Base">
+			<HintPath>Mafi.Base.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Mafi.Core">
+			<HintPath>Mafi.Core.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Mafi.Unity">
+			<HintPath>Mafi.Unity.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			<HintPath>UnityEngine.AudioModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>UnityEngine.CoreModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+		  <HintPath>UnityEngine.TextRenderingModule.dll</HintPath>
+  		  <Private>false</Private>
+		</Reference>
+	</ItemGroup>
+</Project>
