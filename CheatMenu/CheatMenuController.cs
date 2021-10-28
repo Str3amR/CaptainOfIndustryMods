@@ -23,7 +23,6 @@ namespace CaptainOfIndustryMods.CheatMenu
         public ControllerConfig Config => new ControllerConfig
         {
             DeactivateOnEscapeKey = false,
-            IsIndepenentOnOthers = false,
             DeactivateOnNonUiClick = false,
             AllowInspectorCursor = false,
             PreventSpeedControl = true,
