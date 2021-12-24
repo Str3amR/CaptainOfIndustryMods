@@ -19,13 +19,11 @@ namespace CaptainOfIndustryMods.CheatMenu
             _dependencyResolver = dependencyResolver;
         }
 
-
         public ControllerConfig Config => new ControllerConfig
         {
-            DeactivateOnEscapeKey = false,
-            DeactivateOnNonUiClick = false,
+            DeactivateOnOtherControllerActive = true,
+            DeactivateOnNonUiClick = true,
             AllowInspectorCursor = false,
-            PreventSpeedControl = true,
         };
 
         public void Activate()

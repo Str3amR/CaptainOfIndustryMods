@@ -11,6 +11,7 @@ namespace CaptainOfIndustryMods.CheatMenu
     {
         // Name must be alphanumeric
         public string Name => "CheatMenu";
+        public int Version => 1;
         public bool IsUiOnly => false;
 
         public void Initialize(DependencyResolver resolver, bool gameWasLoaded)
